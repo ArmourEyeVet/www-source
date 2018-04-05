@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://ArmourEyeVet.com/"
+baseurl = "http://www.ArmourEyeVet.com/"
 languageCode = "en-us"
 title = "AVO"
 theme = "smpl"
