@@ -1,0 +1,74 @@
+# Site settings
+baseurl = "https://ArmourEyeVet.com/"
+languageCode = "en-us"
+title = "AVO"
+theme = "smpl"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Dr. Anna-Michelle “Micki” Armour, VMD, DACVO"
+  description = "Dr. Armour attended Colby College where she received her bachelor degree in Biology and Performing Arts. She graduated from the University of Pennsylvania School of Veterinary Medicine. She then completed a rotating small animal medicine and surgery internship at Red Bank Veterinary Hospital. Dr. Armour then completed a three-year residency program with Eye Care for Animals, after which she became a board certified Diplomate of the American College of Veterinary Ophthalmologists. She practices alongside other veterinary specialists at the Eye Care for Animals located within the LifeCentre in Leesburg, Virginia. Dr. Armour is also available to see equine patients at the Marion duPont Scott Equine Center in Leesburg."
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  #  [params.logo]
+  #    enable = true
+  #    image = "assets/img/logo.png"
+  #    alt = "Armour Veterinary Ophthalmology"
+  #    width = "100"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "Armour Veterinary Ophthalmology"
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "Comming Soon!"
+
+  # Social icons section
+  # Add a modifier class to increase size
+  # fa-lg, fa-2x, fa-3x, fa-4x, fa-5x
+  # e.g., icon = "fa-instagram fa-lg"
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook fa-lg"
+    link = "https://www.facebook.com/ArmourEyeVet"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter fa-lg"
+    link = "https://twitter.com/ArmourEyeVet"
+
+  [[params.social]]
+    title = "Newsletter"
+    icon = "fa-newspaper-o"
+    link = "https://mailchi.mp/b64688b24ba7/avo_updates"
+
+  #  [[params.social]]
+  #    title = "Email Me!"
+  #    icon = "fa-envelope"
+  #    link = "mailto:phil@ArmourEyeVet.com"
+
