@@ -58,12 +58,17 @@ googleAnalytics = "UA-116962118-1"
     link = "https://www.facebook.com/ArmourEyeVet"
 
   [[params.social]]
+    title = "Instagram"
+    icon = "fa-instagram fa-lg"
+    link = "https://www.instagram.com/armoureyevet/"
+
+  [[params.social]]
     title = "Twitter"
     icon = "fa-twitter fa-lg"
     link = "https://twitter.com/ArmourEyeVet"
 
   [[params.social]]
-    title = "Newsletter"
+    title = "Get Updates!"
     icon = "fa-newspaper-o fa-lg"
     link = "https://mailchi.mp/b64688b24ba7/avo_updates"
 
