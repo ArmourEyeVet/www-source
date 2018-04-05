@@ -6,7 +6,7 @@ theme = "smpl"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 # Enter your tracking code to enable Google analytics
-googleAnalytics = ""
+googleAnalytics = "UA-116962118-1"
 
 [params]
   # You can use Markdown for urls [text](//domain.tld/source)
@@ -64,7 +64,7 @@ googleAnalytics = ""
 
   [[params.social]]
     title = "Newsletter"
-    icon = "fa-newspaper-o"
+    icon = "fa-newspaper-o fa-lg"
     link = "https://mailchi.mp/b64688b24ba7/avo_updates"
 
   #  [[params.social]]
